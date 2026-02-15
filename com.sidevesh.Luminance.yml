@@ -40,4 +40,4 @@ modules:
       - type: git
         url: https://github.com/sidevesh/Luminance.git
         tag: 1.4.6
-        commit: 4e38137c1c1b4a8df1da5fab5fc318c4ae4a7ebd
+        commit: 3f351d64f5f61596cd0ef94155237a4930c429f4
