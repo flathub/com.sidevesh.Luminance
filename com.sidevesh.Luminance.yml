@@ -9,6 +9,12 @@ finish-args:
   - --device=all
   - --system-talk-name=org.freedesktop.UPower
   - --share=ipc
+cleanup:
+ - /includ
+ - /lib/cmake
+ - /share/man
+ - '*.la'
+ - '*.a'
 modules:
   - name: jansson
     buildsystem: cmake-ninja
