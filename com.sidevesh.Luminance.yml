@@ -39,5 +39,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/sidevesh/Luminance.git
-        tag: v1.4.4
+        tag: 1.4.4
         commit: 669932d08bf787545948bd3ce56c8157d4644ae0
