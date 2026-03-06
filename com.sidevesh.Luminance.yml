@@ -10,7 +10,7 @@ finish-args:
   - --system-talk-name=org.freedesktop.UPower
   - --share=ipc
 cleanup:
- - /includ
+ - /include
  - /lib/cmake
  - /share/man
  - '*.la'
