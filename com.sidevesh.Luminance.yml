@@ -1,6 +1,6 @@
 app-id: com.sidevesh.Luminance
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: com.sidevesh.Luminance
 finish-args:
@@ -13,6 +13,7 @@ finish-args:
 cleanup:
  - /include
  - /lib/cmake
+ - /lib/pkgconfig
  - /share/man
  - '*.la'
  - '*.a'
@@ -40,7 +41,7 @@ modules:
   - name: luminance
     buildsystem: meson
     config-opts:
-      - --buildtype=release
+      - -Dbuildtype=release
       - -Dinstall_udev_rules=false
     sources:
       - type: git
